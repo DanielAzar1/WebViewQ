@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         ed1 = findViewById(R.id.ed1);
         wv1 = findViewById(R.id.wv1);
         btn1 = findViewById(R.id.btn1);
-        wv1.getSettings().setJavaScriptEnabled(false);
+        wv1.getSettings().setJavaScriptEnabled(true);
         wv1.setWebViewClient(new MyWebViewClient());
     }
     public void dodge(View view) {
